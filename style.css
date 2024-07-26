@@ -17,11 +17,53 @@
 nav {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     background-color:rgb(206, 204, 204);
-    height: 20%;
+    height: 80px;
+    position: sticky;
 }
 
 nav a {
     font-size: 30px;
+    font-weight: bolder;
     color: #0a2f62;
+
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left-box {
+    margin-top: 5%;
+}
+
+.left-box h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #0a2f62;
+}
+
+.left-box p {
+    font-size: 25px;
+    color: #0a2f62;
+}
+
+.left-box label {
+    font-size: 35px;
+    color: #0a2f62;
+}
+
+.left-box input {
+    border: 1.1px solid rgba(10, 47, 98, 1);
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px  #0a2f62;
+    height: 35px;
+    width: 60%;
+    padding-left: 2%;
+    font-size: 20px;
+    color: rgb(10, 47, 98);
 }
