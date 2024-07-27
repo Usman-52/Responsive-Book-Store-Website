@@ -22,6 +22,7 @@ nav {
     background-color:rgb(206, 204, 204);
     height: 80px;
     position: sticky;
+    top: 0;
 }
 
 nav a {
@@ -120,4 +121,73 @@ nav a {
     color: #ffff;
     cursor: pointer;
 
+}
+
+/* * This is Best Sellers Section Styling */
+
+#most-read-books {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.desc > .most-read-book-section-large-text {
+    font-size: 24px;
+}
+
+.Author {
+    font-size: 24px;
+}
+
+.contact-section {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    height: 40%;
+    background-color: rgb(206, 204, 204);
+    margin-left: 10%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+}
+
+.icons {
+    margin-top: 1%;
+    font-size: 40px;
+}
+
+.icons a {
+    color: rgb(10, 47, 98);
+}
+
+footer {
+    background-color: rgb(206, 204, 204);
+    display: block;
+
+}
+
+.footer {
+    margin-left: 10%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer p {
+
+    margin-bottom: 1%;
+    font-size: 24px;
+}
+
+.nav {
+    margin-left: 10%;
+}
+
+.nav a {
+    line-height: 30px;
+}
+
+.about-Us {
+    line-height: 30px;
 }
